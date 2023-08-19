@@ -49,21 +49,21 @@ class EquipeProjeto {
 }
 void main() {
   // 1. Criar varios objetos Dependentes
-  Dependente dependente1 = Dependente("nikolas");
-  Dependente dependente2 = Dependente("thaisa");
-  Dependente dependente3 = Dependente("spider");
+  Dependente dependente1 = Dependente("Dependente1");
+  Dependente dependente2 = Dependente("Dependente2");
+  Dependente dependente3 = Dependente("Dependente3");
  
-  Dependente dependente4 = Dependente("nikolas1");
-  Dependente dependente5 = Dependente("thaisa1");
-  Dependente dependente6 = Dependente("spider1");
+  Dependente dependente4 = Dependente("Dependente4");
+  Dependente dependente5 = Dependente("Dependente5");
+  Dependente dependente6 = Dependente("Dependente6");
  
   //print(dependente1._nome);
   // 2. Criar varios objetos Funcionario
   List<Dependente> dependentesPaulao = [dependente1, dependente2, dependente3];
   List<Dependente> dependentesAline = [dependente4, dependente5, dependente6];
  
-  Funcionario funcionario1 = Funcionario("paulao",dependentesPaulao);
-  Funcionario funcionario2 = Funcionario("aline",dependentesAline);
+  Funcionario funcionario1 = Funcionario("Funcionario1",dependentesPaulao);
+  Funcionario funcionario2 = Funcionario("Funcionario2",dependentesAline);
   // 3. Associar os Dependentes criados aos respectivos
   //    funcionarios
  
@@ -74,7 +74,7 @@ void main() {
   // 5. criar um objeto Equipe Projeto chamando o metodo
   //    contrutor que da nome ao projeto e insere uma
   //    coleção de funcionario
-  EquipeProjeto equipeProjeto = EquipeProjeto("shapeInexplicavel", funcionarios);
+  EquipeProjeto equipeProjeto = EquipeProjeto("equipe1", funcionarios);
  
   // 6. Printar  o objeto Equipe Projeto.
  
